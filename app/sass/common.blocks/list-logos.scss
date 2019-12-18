@@ -1,0 +1,125 @@
+.list-logos {
+
+}
+
+.item-logo {
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 93px;
+
+  img {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.list-logos__header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.list-logos__header-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292F33;
+  position: relative;
+  top: -13px;
+}
+
+.list-logos__header-arrow {
+  display: block;
+  max-width: 15px;
+  width: 100%;
+  height: 25px;
+}
+
+.list-logos__header-arrow-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.list-logos__header-arrow-left-wrapper {
+  margin-right: 30px;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: #FFE165;
+  }
+}
+
+.list-logos__header-arrow-right-wrapper {
+  margin-left: 30px;
+  &:before {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: #FFE165;
+  }
+}
+
+.list-logos__header-arrow-left {
+  margin-right: auto;
+  background: url("../img/list-logos__header-arrow-left.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.list-logos__header-arrow-right {
+  margin-left: auto;
+  background: url("../img/list-logos__header-arrow-right.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.list-logos__foreign {
+  margin-right: 45px;
+}
+
+.list-logos__domestic {
+  margin-left: 20px;
+}
+
+.list-logos__hidden-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #F06D24;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.list-logos__hidden-block {
+  height: 0;
+  overflow: hidden;
+}
+
+.list-logos__hidden-block.active {
+  height: 100%;
+}
+
+.list-logos__header-foreign {
+  max-width: 470px;
+}
+
+.list-logos__header-domestic {
+  max-width: 291px;
+}

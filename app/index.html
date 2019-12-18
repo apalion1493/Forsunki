@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ремонт форсунок</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main class="app" id="app">
+    <header class="section main-header">
+        <div class="container px-0">
+            <div class="row">
+                <div class="col-7 main-header__menu">
+                    <nav class="main-menu">
+                        <a class="main-menu__link" href="#">Услуги</a>
+                        <a class="main-menu__link" href="#">Каталог</a>
+                        <a class="main-menu__link" href="#">Цены</a>
+                        <a class="main-menu__link" href="#">Сравнение форсунок </a>
+                        <a class="main-menu__link" href="#">О нас</a>
+                        <a class="main-menu__link" href="#">Преимущества</a>
+                        <a class="main-menu__link" href="#">Контакты</a>
+                    </nav>
+                </div>
+                <div class="col-5">
+                    <div class="d-flex align-items-center">
+                        <div class="tel-phone tel-phone_list">
+                            <a class="tel-phone__item tel-phone__rus active" href="#">+7 499 350 14 44</a>
+                            <a class="tel-phone__item tel-phone__ucr" href="#">+8 499 350 14 44</a>
+                            <a class="tel-phone__item tel-phone__brus" href="#">+9 499 350 14 44</a>
+                        </div>
+                        <div>
+                            <form>
+                                <div class="select-header">
+                                    <select name="country" class="custom-select country-list">
+                                        <option class="country-list__start" value="0">Выберете страну</option>
+                                        <option class="country-list__rus" value="1" selected>Россия</option>
+                                        <option class="country-list__ucr" value="2">Украина</option>
+                                        <option class="country-list__brus" value="3">Беларусь</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section first-slide">
+        <div class="container">
+            <div class="row position-relative">
+                <img class="first-slide__bg" src="img/img-big-car.png" alt="">
+                <div class="col-8">
+                    <span class="first-slide__slogan">Ремонт и продажа форсунок для спецтехники с выгодой до <span
+                            class="first-slide__slogan-color">70%</span></span>
+                </div>
+                <div class="col-4">
+                    <div class="first-slide__block">
+                        <div class="first-slide__block-wrapper">
+                            <p class="first-slide__block-text"><span class="first-slide__block-title">Оставьте заявку
+                                <span class="first-slide__block-title-color">сейчас</span></span>
+                                и мы предложим Вам лучшие условия</p>
+
+                            <input class="form-control first-slide__input" type="text" placeholder="Телефон">
+                            <button class="btn btn-secondary main-btn first-slide__btn">Отправить</button>
+                        </div>
+
+                        <footer>
+                            <p>Личные данные защищины <a href="#">правами потребителя</a></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section second-slide">
+        <div class="container">
+            <h2 class="h2 text-center">Какие Услуги мы предлагаем</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card primary-card">
+                        <img src="img/icon-repairs.svg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ремонт форсунок</h5>
+                            <p class="card-text">Отремонтируем форсунки любой сложности к большинству видов спецтехники и грузовиков</p>
+                            <a href="#" class="btn btn-secondary main-btn">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card primary-card">
+                        <img src="img/icon-sale.svg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Продажа форсунок</h5>
+                            <p class="card-text">У нас на складе имеется более 90% различных видов форсунок высокого качества</p>
+                            <a href="#" class="btn btn-secondary main-btn">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card primary-card">
+                        <img src="img/icon-purchase.svg" class="" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Покупка форсунок</h5>
+                            <p class="card-text">Если не знаете что делать с нерабочими или б/у форсунками, приобретем или примем в зачет их по выгодной для Вас цене</p>
+                            <a href="#" class="btn btn-secondary main-btn">Продать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section third-slide">
+        <div class="container">
+            <h2 class="h2">Ремонтируем и продаем форсунки</h2>
+            <div class="row">
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-1.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-1.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Caterpillar C7/C9 Caterpillar C7/C9</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-6">
+                                       <div>
+                                           <a class="card-product__mark-link" href="#">и другие</a>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-2.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-2.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Perkins C4.4 / C6.4 / C6.6</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                   <div class="col-6">
+                                       <div>
+                                           <a class="card-product__mark-link" href="#">и другие</a>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-3.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-1.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Caterpillar C10-C32</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-4.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-1.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Caterpillar 3126</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-5.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Scania PDE</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-6.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Scania HPI, XPI</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-7.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-4.png" width="75" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Volvo D12C /FH12</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <img class="card-product__img" src="img/content-8.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-5.png" width="85" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Iveco Cursor/ Stralis</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <span class="card-product__label">Есть восстановленные</span>
+                            <img class="card-product__img" src="img/content-9.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-6.png" width="108" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Denso-JCB/Hitachi</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <img class="card-product__img" src="img/content-10.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-7.png" width="80" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Detroit Diesel</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <img class="card-product__img" src="img/content-11.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-8.png" width="77" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Cummins</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card card-product">
+                        <header class="card-product__header">
+                            <img class="card-product__img" src="img/content-12.png" alt="...">
+                            <img class="card-product__logo" src="img/logo-firm-9.png" width="94" alt="">
+                        </header>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Lucas</h5>
+                            <div class="card-product__first-block">
+                                <div class="card-product__first-block-wrapper row">
+                                    <div class="col-6">
+                                        <div class="card-product__list-marking">
+                                            <span class="card-product__mark">1888739</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                            <span class="card-product__mark">3879430</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <a class="card-product__mark-link" href="#">и другие</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__border">
+                                <button class="btn card-product__border-btn">Еще</button>
+                            </div>
+                            <div class="card-product__second-block">
+                                <p class="card-text">Цена:</p>
+                                <p class="card-product__second-block-price"><span class="pr-2">от 10 000 ₽ </span> <span> до 20 000 ₽</span></p>
+
+                            </div>
+                            <div class="card-product__third-block">
+                                <button class="btn card-product__main-btn">Ремонт</button>
+                                <button class="btn card-product__main-btn">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section fourth-slide">
+        <div class="container">
+            <h2 class="h2">Ремонтируем форсунки для спецтехники</h2>
+            <div class="row">
+                <div class="col-8">
+                    <div class="list-logos list-logos__foreign">
+                        <div class="list-logos__header list-logos__header-foreign">
+                            <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-left-wrapper">
+                                <i class="list-logos__header-arrow list-logos__header-arrow-left"></i>
+                            </div>
+                            <span class="list-logos__header-title">зАРУБЕЖНЫЕ</span>
+                            <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-right-wrapper">
+                                <i class="list-logos__header-arrow list-logos__header-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="row list-logos__content">
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-1.svg" alt="" width="97">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-10.png" alt="" width="117">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-6.png" alt="" width="135">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-4.png" alt="" width="76">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-11.png" alt="" width="136">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo item-logo_black">
+                                    <img src="img/logo-firm-12.png" alt="" width="132">
+                                </div>
+                            </div>
+                            <div class="col-3 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-5.png" alt="" width="110">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-logos__hidden">
+                            <div class="list-logos__hidden-block">
+                                <div class="row list-logos__content">
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-1.svg" alt="" width="97">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-10.png" alt="" width="117">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-3.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-6.png" alt="" width="135">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-4.png" alt="" width="76">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-11.png" alt="" width="136">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo item-logo_black">
+                                            <img src="img/logo-firm-12.png" alt="" width="132">
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-5.png" alt="" width="110">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="list-logos__hidden-link">Остальные 20</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="list-logos list-logos__domestic">
+                        <div class="list-logos__header list-logos__header-domestic">
+                            <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-left-wrapper">
+                                <i class="list-logos__header-arrow list-logos__header-arrow-left"></i>
+                            </div>
+                            <span class="list-logos__header-title">оТЕЧЕСТВЕННЫЕ</span>
+                            <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-right-wrapper">
+                                <i class="list-logos__header-arrow list-logos__header-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="row list-logos__content">
+                            <div class="col-6 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-13.png" alt="" width="51">
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-14.png" alt="" width="96">
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-15.png" alt="" width="89">
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="item-logo">
+                                    <img src="img/logo-firm-16.png" alt="" width="65">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-logos__hidden">
+                            <div class="list-logos__hidden-block">
+                                <div class="row list-logos__content">
+                                    <div class="col-6 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-13.png" alt="" width="51">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-14.png" alt="" width="96">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-15.png" alt="" width="89">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-4">
+                                        <div class="item-logo">
+                                            <img src="img/logo-firm-16.png" alt="" width="65">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="list-logos__hidden-link">Остальные 19</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section fifth-slide">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!-- JAVASCRIPT ================================================== -->
+
+<!-- JS Global -->
+
+<script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/pages/main.js"></script>
+
+<!-- JS Inline -->
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>

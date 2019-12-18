@@ -1,0 +1,46 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^8.0.0",
+    "jquery": "^3.4.1",
+    "natives": "^1.1.6",
+    "popper": "^1.0.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.3.1",
+    "gsap": "^3.0.1",
+    "lg-fullscreen.js": "^1.1.0",
+    "lg-thumbnail.js": "^1.1.0",
+    "lightgallery.js": "^1.1.3",
+    "npm": "^6.13.1",
+    "owl.carousel": "^2.3.4",
+    "scrollmagic": "^2.0.7",
+    "slick-carousel": "^1.8.1",
+    "tilt": "^0.2.0",
+    "tilt.js": "^1.2.1",
+    "tiny-slider": "^2.9.2",
+    "wowjs": "^1.1.3"
+  }
+}
