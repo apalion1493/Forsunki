@@ -1,3 +1,17 @@
 .fifth-slide {
+  padding-bottom: 30px;
 
+  .container {
+    background: linear-gradient(226.16deg, #FDBF00 4.37%, #FFE165 98.28%);
+    border-radius: 10px;
+    padding-top: 55px;
+    padding-bottom: 74px;
+    position: relative;
+  }
+
+
+
+  &.orange-container {
+    background: initial;
+  }
 }

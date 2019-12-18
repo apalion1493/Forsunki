@@ -1,0 +1,46 @@
+.orange-container {
+  background: linear-gradient(219.84deg, #FDBF00 4.37%, #FFE165 98.28%);
+  position: relative;
+
+  .row {
+    position: relative;
+    z-index: 2;
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+.orange-container__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.orange-container__desc-pl {
+  padding-left: 50px;
+}
+
+.orange-container__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 47px;
+  color: #292F33;
+  margin-bottom: 35px;
+  display: block;
+  
+  a {
+    color: #292F33;
+    text-decoration: underline;
+  }
+}
+
+.orange-container__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #292F33;
+  margin-bottom: 0;
+}
