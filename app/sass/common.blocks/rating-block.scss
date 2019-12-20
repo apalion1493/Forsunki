@@ -1,0 +1,33 @@
+.rating-block {
+  display: flex;
+  align-items: center;
+}
+
+.star-state {
+  width: 17px;
+  height: 17px;
+  display: block;
+  margin-right: 4px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.star-state_filled {
+  background: url("../img/star-state_filled.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.star-state_half {
+  background: url("../img/star-state_half.svg") no-repeat center;
+  background-size: 100% auto;
+  position: relative;
+  top: 1px;
+}
+
+.star-state_hollow {
+  background: url("../img/star-state_hollow.svg") no-repeat center;
+  background-size: 100% auto;
+  top: 1px;
+}

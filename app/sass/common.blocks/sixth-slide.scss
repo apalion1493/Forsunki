@@ -1,0 +1,41 @@
+.sixth-slide {
+  padding-top: 30px;
+
+  .h2 {
+    margin-bottom: 36px;
+  }
+
+  .nav-pills .nav-link.active {
+    background: #FFE165;
+  }
+
+  .nav-pills .nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #292F33;
+    height: 81px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBE9E1;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.sixth-slide__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #F06D24;
+  margin-top: 19px;
+  padding-left: 23px;
+
+  span {
+    font-size: 24px;
+    margin-right: 14px;
+  }
+}

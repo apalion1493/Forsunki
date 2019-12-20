@@ -1,0 +1,43 @@
+.company-slider__item {
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  iframe, img {
+    width: 100%;
+    height: 258px;
+  }
+}
+
+.company-slider {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 40px;
+
+  .slick-prev {
+    left: -50px;
+
+    &:before {
+      content: '';
+      background: url("../img/arrow-prev.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 47px;
+      height: 47px;
+      display: block;
+    }
+  }
+
+  .slick-next {
+    right: -25px;
+
+    &:before {
+      content: '';
+      background: url("../img/arrow-next.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 47px;
+      height: 47px;
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .orange-container {
   background: linear-gradient(219.84deg, #FDBF00 4.37%, #FFE165 98.28%);
   position: relative;
+  overflow: hidden;
 
   .row {
     position: relative;
@@ -27,7 +28,7 @@
   font-size: 32px;
   line-height: 47px;
   color: #292F33;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   display: block;
   
   a {
@@ -43,4 +44,24 @@
   line-height: 21px;
   color: #292F33;
   margin-bottom: 0;
+}
+
+.orange-container__lick {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #292F33;
+  display: flex;
+  align-items: center;
+
+  i {
+    background: url("../img/telephone-handle-silhouette.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 14px;
+    position: relative;
+    top: 2px;
+  }
 }

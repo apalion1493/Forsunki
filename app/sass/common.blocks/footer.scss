@@ -1,0 +1,122 @@
+.footer {
+  background: #292F33;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 26px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer__link {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  display: block;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer__link-viber {
+  background: url("../../img/logo-social-viber.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer__link-wp {
+  background: url("../../img/logo-social-wp.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer__link-tg {
+  background: url("../../img/logo-social-tg.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer__link-youtube {
+  background: url("../../img/logo-social-youtube.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer__link-vk {
+  background: url("../../img/logo-social-vk.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+  background: url("../../img/footer-img-logo.png") no-repeat center;
+  background-size: 100% auto;
+  width: 207px;
+  height: 66px;
+}
+
+.footer__right-icon {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: -1px;
+    background: red;
+  }
+}
+
+.footer__right-icon-marker {
+
+  &:before {
+    content: '';
+    width: 29px;
+    height: 27px;
+    background: url("../img/placeholder-filled-point.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
+.footer__right-icon-message {
+
+  &:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: url("../img/black-back-closed-envelope-shape1.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
+.footer__right-icon-share {
+  &:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: url("../img/share-icon.svg") no-repeat center;
+    background-size: 100% auto;
+  }
+}

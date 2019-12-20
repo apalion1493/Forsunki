@@ -1,0 +1,86 @@
+.advantages-item {
+  display: flex;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.advantages-item__img {
+  background: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 127px;
+  width: 127px;
+  min-height: 100%;
+}
+
+.advantages-item__content {
+  padding: 30px 12px 30px 28px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.advantages-item__icon-rub {
+  background: url("../img/icon-rub.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 59px;
+  height: 59px;
+  display: block;
+}
+
+.advantages-item__icon-box {
+  background: url("../img/icon-box.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.advantages-item__icon-discount {
+  background: url("../img/logo-discount.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.advantages-item__icon-file {
+  background: url("../img/logo-file.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 58px;
+  height: 58px;
+  display: block;
+}
+
+.advantages-item__icon-forsunki {
+  background: url("../img/logo-forsunki.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 52px;
+  height: 53px;
+  display: block;
+}
+
+.advantages-item__icon-union {
+  background: url("../img/logo-union.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 64px;
+  display: block;
+}
+
+.advantages-item__content-title {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 13px;
+  display: block;
+  max-width: 310px;
+}
+
+.advantages-item__content-text {
+  font-size: 14px;
+  line-height: 19px;
+}

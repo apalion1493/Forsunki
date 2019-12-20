@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -128,7 +131,7 @@
                         </header>
 
                         <div class="card-body">
-                            <h5 class="card-title">Caterpillar C7/C9 Caterpillar C7/C9</h5>
+                            <h5 class="card-title">Caterpillar C7/C9</h5>
                             <div class="card-product__first-block">
                                 <div class="card-product__first-block-wrapper row">
                                     <div class="col-6">
@@ -837,7 +840,626 @@
             <div class="truck-img"></div>
         </div>
     </section>
+    <section class="section sixth-slide">
+        <div class="container">
+            <h2 class="h2">Подробный прайс на ремонт форсунок</h2>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills row" id="pills-tab" role="tablist">
+                        <li class="nav-item col-3">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Common Rail</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Пьезо</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Смарт</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact2" role="tab" aria-controls="pills-contact" aria-selected="false">Насос-форсунки</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="border-table">
+                                <table class="table price-table" cellspacing="0">
+                                    <thead>
+                                    <tr class="table-orange">
+                                        <th scope="col">Тип поломки</th>
+                                        <th scope="col">Цена (₽) <span class="table-star-orange">*</span></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">Демонтаж/монтаж форсунки ( в зависимости от сложности )</th>
+                                        <td class="border-left-color border-left-color_top">750 - 2 000 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Промывка форсунки в ультразвуке</th>
+                                        <td class="border-left-color">50 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Проверка форсунки BOSCH, DENSO, DELPHI, VDO на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Проверка форсунки АЗПИ на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Восстановление форсунки BOSCH, DELPHI, DENSO, Siemens-VDO</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Восстановление форсунки Altay Common Rail</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">НОРМО-ЧАС легковой / грузовой</th>
+                                        <td class="border-left-color border-left-color_bottom">1 500 / 2 000 ₽</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с
+                                динамикой рынка.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="border-table">
+                                <table class="table price-table" cellspacing="0">
+                                    <thead>
+                                    <tr class="table-orange">
+                                        <th scope="col">Тип поломки</th>
+                                        <th scope="col">Цена (₽) <span class="table-star-orange">*</span></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">Демонтаж/монтаж форсунки ( в зависимости от сложности )</th>
+                                        <td class="border-left-color border-left-color_top">750 - 2 000 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Промывка форсунки в ультразвуке</th>
+                                        <td class="border-left-color">50 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Проверка форсунки BOSCH, DENSO, DELPHI, VDO на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Проверка форсунки АЗПИ на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Восстановление форсунки BOSCH, DELPHI, DENSO, Siemens-VDO</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Восстановление форсунки Altay Common Rail</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">НОРМО-ЧАС легковой / грузовой</th>
+                                        <td class="border-left-color border-left-color_bottom">1 500 / 2 000 ₽</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="border-table">
+                                <table class="table price-table" cellspacing="0">
+                                    <thead>
+                                    <tr class="table-orange">
+                                        <th scope="col">Тип поломки</th>
+                                        <th scope="col">Цена (₽) <span class="table-star-orange">*</span></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">Демонтаж/монтаж форсунки ( в зависимости от сложности )</th>
+                                        <td class="border-left-color border-left-color_top">750 - 2 000 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Промывка форсунки в ультразвуке</th>
+                                        <td class="border-left-color">50 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Проверка форсунки BOSCH, DENSO, DELPHI, VDO на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Проверка форсунки АЗПИ на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Восстановление форсунки BOSCH, DELPHI, DENSO, Siemens-VDO</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Восстановление форсунки Altay Common Rail</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">НОРМО-ЧАС легковой / грузовой</th>
+                                        <td class="border-left-color border-left-color_bottom">1 500 / 2 000 ₽</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
+                            <div class="border-table">
+                                <table class="table price-table" cellspacing="0">
+                                    <thead>
+                                    <tr class="table-orange">
+                                        <th scope="col">Тип поломки</th>
+                                        <th scope="col">Цена (₽) <span class="table-star-orange">*</span></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">Демонтаж/монтаж форсунки ( в зависимости от сложности )</th>
+                                        <td class="border-left-color border-left-color_top">750 - 2 000 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Промывка форсунки в ультразвуке</th>
+                                        <td class="border-left-color">50 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Проверка форсунки BOSCH, DENSO, DELPHI, VDO на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Проверка форсунки АЗПИ на стенде</th>
+                                        <td class="border-left-color">800 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Восстановление форсунки BOSCH, DELPHI, DENSO, Siemens-VDO</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr class="bg-row-color">
+                                        <th scope="row">Восстановление форсунки Altay Common Rail</th>
+                                        <td class="border-left-color">2 500 ₽</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">НОРМО-ЧАС легковой / грузовой</th>
+                                        <td class="border-left-color border-left-color_bottom">1 500 / 2 000 ₽</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section seventh-slide">
+        <div class="container">
+            <h2 class="h2">сРАВНЕНИЕ востановленной форсунки <br> над новой и б/у</h2>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="col"></th>
+                                <th class="comparison-table__center-column" scope="col">Б/У форсунка</th>
+                                <th class="comparison-table__center-column" scope="col">Новая форсунка</th>
+                                <th class="comparison-table__orange-column" scope="col">Востановленная</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__check"></span>
+                                    </div>
+                                    <p>Наличие</p>
+                                </th>
+                                <td class="comparison-table__center-column">В наличии и под заказ</td>
+                                <td class="comparison-table__center-column">В наличии и под заказ</td>
+                                <td class="comparison-table__orange-column">В наличии <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column comparison-table__opacity-color" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__shield"></span>
+                                    </div>
+                                    <p>Гарантия</p>
+                                </th>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Сомнительная гарантия</td>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Гарантия 1-2 месяца</td>
+                                <td class="comparison-table__orange-column comparison-table__opacity-color">Гарантия до 12 месяцев <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__watch"></span>
+                                    </div>
+                                    <p>Степень износа</p>
+                                </th>
+                                <td class="comparison-table__center-column">Неизвестно</td>
+                                <td class="comparison-table__center-column">Новая <span class="recommended"></span></td>
+                                <td class="comparison-table__orange-column">Состояние аналогичной новой <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column comparison-table__opacity-color" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__documentation"></span>
+                                    </div>
+                                    <p>Документы</p>
+                                </th>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Нет</td>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Есть <span class="recommended"></span></td>
+                                <td class="comparison-table__orange-column comparison-table__opacity-color">Есть <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__box"></span>
+                                    </div>
+                                   <p> Диагностика</p>
+                                </th>
+                                <td class="comparison-table__center-column">Платно</td>
+                                <td class="comparison-table__center-column">Платно</td>
+                                <td class="comparison-table__orange-column">Бесплатно <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column comparison-table__opacity-color" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__discounts"></span>
+                                    </div>
+                                  <p> Скидки</p>
+                                </th>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Неизвестно</td>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Неизвестно</td>
+                                <td class="comparison-table__orange-column comparison-table__opacity-color">Есть <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__plan"></span>
+                                    </div>
+                                   <p>Тест план</p>
+                                </th>
+                                <td class="comparison-table__center-column">Нет</td>
+                                <td class="comparison-table__center-column">Нет</td>
+                                <td class="comparison-table__orange-column">Есть <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column comparison-table__opacity-color" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__nozzle"></span>
+                                    </div>
+                                    <p>Форсунки в зачет</p>
+                                </th>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Нет</td>
+                                <td class="comparison-table__center-column comparison-table__opacity-color">Нет</td>
+                                <td class="comparison-table__orange-column comparison-table__opacity-color">Есть <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__delivery"></span>
+                                    </div>
+                                    <p>Доставка</p>
+                                </th>
+                                <td class="comparison-table__center-column">Платно</td>
+                                <td class="comparison-table__center-column">Платно</td>
+                                <td class="comparison-table__orange-column">Бесплатно <span class="recommended"></span></td>
+                            </tr>
+                            <tr>
+                                <th class="comparison-table__black-column comparison-table__opacity-color" scope="row">
+                                    <div class="table-icon-wrapper">
+                                        <span class="table-icon table-icon__price"></span>
+                                    </div>
+                                    <p>Цена</p>
+                                </th>
+                                <td class="comparison-table__center-column comparison-table__opacity-color comparison-table__price-color">15 000 - 20
+                                    000 руб. <span
+                                        class="recommended"></span></td>
+                                <td class="comparison-table__center-column comparison-table__opacity-color comparison-table__price-color">60 000 руб. </td>
+                                <td class="comparison-table__orange-column comparison-table__opacity-color comparison-table__price-color">18 000 руб. <span
+                                        class="recommended"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section eighth-slide black-container">
+        <div class="container">
+            <h2 class="h2">О нашей компании</h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="company-slider multiple-items">
+                        <div class="company-slider__item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LTRfFetHlAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/1.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/2.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/3.jpg" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/4.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/5.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/6.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/7.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/8.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/9.png" alt="">
+                        </div>
+                        <div class="company-slider__item">
+                            <img src="img/slider/10.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <h3 class="h3 mb-5">Честные отзывы на независимых площадках</h3>
+            <div class="row">
+                <div class="col-4">
+                    <div class="reviews-text mt-2">
+                        <p class="reviews-text__p">Всего отзывов</p>
+                        <span class="reviews-text__span">> 170</span>
+                    </div>
+                    <div class="reviews-text mt-5 pt-4">
+                        <p class="reviews-text__p">Средняя оценка</p>
+                        <div class="d-flex">
+                            <span class="reviews-text__span">4,5/5</span>
+                            <div class="rating-block ml-3">
+                                <span class="star-state star-state_filled"></span>
+                                <span class="star-state star-state_filled"></span>
+                                <span class="star-state star-state_filled"></span>
+                                <span class="star-state star-state_half"></span>
+                                <span class="star-state star-state_hollow"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Отзывы Яндекс</span>
+                                <img class="review-block__logo" src="img/logo-yandex.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Отзывы Google</span>
+                                <img class="review-block__logo" src="img/logo-google.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Отзывы СПР</span>
+                                <img class="review-block__logo" src="img/logo-spr.svg" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Сервис Отзывы</span>
+                                <img class="review-block__logo" src="img/otzyv_logo.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Сервис отзывов zoon</span>
+                                <img class="review-block__logo" src="img/zoon_logo.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Сайт Дизель Форс</span>
+                                <img class="review-block__logo" src="img/logo-remont-forsunok.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Сайт TIU.RU</span>
+                                <img class="review-block__logo" src="img/logo-tiur_ru.svg" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-5">
+                            <div class="review-block">
+                                <span class="review-block__text">Каталог Cataloxy</span>
+                                <img class="review-block__logo" src="img/ataloxy-logo.png" alt="">
+                                <div class="review-block__footer">
+                                    <div class="rating-block">
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_filled"></span>
+                                        <span class="star-state star-state_half"></span>
+                                        <span class="star-state star-state_hollow"></span>
+                                    </div>
+                                    <div class="review-block__rating">
+                                        <span class="review-block__rating-number">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="h2">Наши преимущества</h2>
+            <span>Решение Вашей головной боли  —  <span>приоритетная задача</span></span>
+            <div class="row">
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-rub"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">Экономия бюджета</span>
+                            <p class="advantages-item__content-text">Если вы найдете цену на ремонт ниже, чем у нас и <br> подтвердите это, сделаем наше предложение еще <br> более выгодным</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-box"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">В наличии на собственном складе</span>
+                            <p class="advantages-item__content-text">Сообщите, какие модели нужны, и в 90% будьте уверены, что готовые форсунки уже Вас ждут</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-discount"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">Скидки для постоянных клиентов</span>
+                            <p class="advantages-item__content-text">При повторном обращении вы получите <br> дополнительную скидку 10%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-file"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">Оплата с НДС и без</span>
+                            <p class="advantages-item__content-text">Принимаем к оплате безналичную оплату с НДС так и <br> без. Так же отгружаем за
+                                наличный расчет. Весь <br> пакет документов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-forsunki"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">Форсунки в зачет</span>
+                            <p class="advantages-item__content-text">Ваши нерабочие и б/у форсунки, примем в зачет или купим по выгодной для Вас цене</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="advantages-item">
+                        <div class="advantages-item__img">
+                            <i class="advantages-item__icon advantages-item__icon-union"></i>
+                        </div>
+                        <div class="advantages-item__content">
+                            <span class="advantages-item__content-title">Оборудование</span>
+                            <p class="advantages-item__content-text">Производим диагностику и ремонт форсунок только на профессиональном
+                                оборудовании. Ремонт <br> производится в соответствии с параметрами завода изготовителя</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="section eleventh-slide orange-container">
         <div class="background-triangle"></div>
         <div class="container">
@@ -855,8 +1477,130 @@
                     </div>
                 </div>
             </div>
-
             <div class="repairer-img"></div>
+        </div>
+    </section>
+    <section class="section twelfth-slide">
+        <div class="container">
+            <h2 class="h2">Как мы работаем</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="step-work step-work__arrow">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-phone"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">Ваш звонок или заявка</span>
+                            <ul class="step-work__list">
+                                <li>
+                                    <a class="step-work__link" href="#"><span>Россия</span> +7 499 350 14 44</a>
+                                </li>
+                                <li>
+                                    <a class="step-work__link" href="#"><span>Казахстан</span> + 7 727 350 82 93</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-secondary step-work__btn">Заказать обратный звонок</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="step-work step-work__arrow">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-conversation"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">БЕСПЛАТНАЯ <br>консультация специалиста</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="step-work">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-truck"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">Забираем форсунки</span>
+                            <p class="step-work__text">Наш курьер забирает форсунки на диагностику.</p>
+                            <p class="step-work__text"><span>Транспортные затраты и диагностика бесплатная для наших клиентов!</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="step-work step-work__arrow">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-diagnostic"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">Диагностика и договор</span>
+                            <p class="step-work__text">Мы сообщаем вам результаты диагностики и высылаем необходимые документы для оформления договора по ремонту.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="step-work step-work__arrow">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-tools"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">Ремонт</span>
+                            <p class="step-work__text">Выполняем ремонт в течение <span>1 дня.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="step-work">
+                        <div class="step-work__img">
+                            <i class="step-work__icon-box-yellow"></i>
+                        </div>
+
+                        <div class="step-work__content">
+                            <span class="step-work__title">Доставляем</span>
+                            <p class="step-work__text">Мы возвращаем <br> вам <span>восстановленные форсунки с необходимыми документами.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section thirteenth-slide">
+        <div class="container">
+            <h3 class="h3">Эти компании нам доверились</h3>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list-companies mt-4">
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-rosneft"></i>
+                        </div>
+                        <div class="list-companies__item list-companies__item-colorGrey">
+                            <i class="list-companies__logo-zeppelin"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-avtodor"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-lukoil"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-rosneft"></i>
+                        </div>
+                        <div class="list-companies__item list-companies__item-colorGrey">
+                            <i class="list-companies__logo-zeppelin"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-avtodor"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo-lukoil"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="section fourteenth-slide orange-container">
@@ -866,11 +1610,12 @@
                 <div class="col-5">
                     <div class="orange-container__desc">
                         <span class="orange-container__title">Остались вопросы?</span>
-                        <p class="orange-container__text">Позвоните по номерам</p>
-                        <a class="orange-container__lick" href="#">+7 499 350 14 44 Россия</a>
-                        <a class="orange-container__lick" href="#">+7 727 350 82 93 Казахстан</a>
-                        <a class="orange-container__lick" href="#">+375 44 731 01 00 Беларусь</a>
-                        <button class="btn btn-secondary">Наши реквизиты</button>
+                        <p class="orange-container__text mb-3">Позвоните по номерам</p>
+                        <a class="orange-container__lick mb-2" href="#"><i></i>+7 499 350 14 44 <span class="icon-flag icon-flag__rus"
+                                                                                                  style="background-image: url(img/flag-rus.svg)"></span>
+                            Россия</a>
+                        <a class="orange-container__lick" href="#"><i></i>+7 727 350 82 93 <span class="icon-flag icon-flag__kaz" style="background-image: url(img/flag-kaz.svg)"></span> Казахстан</a>
+                        <button class="btn fourteenth-slide__btn white-btn">Наши реквизиты</button>
                     </div>
                 </div>
                 <div class="col-7">
@@ -880,8 +1625,50 @@
                     </div>
                 </div>
             </div>
+            <div class="background-phone-image"></div>
         </div>
     </section>
+    <footer class="section footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer__wrapper ">
+                        <span class="footer__title mb-2 footer__right-icon footer__right-icon-marker">Наш адрес</span>
+                        <p class="footer__text">Москва, ул.Волгоградский проспект, <br> 128 офис 17</p>
+                        <p class="footer__text">Бесплатная транспортировка и доставка <br> топливных форсунок в любую точку <br> России и Казахстана.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer__wrapper ">
+                        <span class="footer__title footer__right-icon footer__right-icon-message">Написать нам</span>
+                        <div class="footer__list">
+                            <a class="footer__link footer__link-viber" href="#"></a>
+                            <a class="footer__link footer__link-wp" href="#"></a>
+                            <a class="footer__link footer__link-tg" href="#"></a>
+                        </div>
+
+                        <span class="footer__title">E-mail</span>
+                        <a class="footer__text" href="">remontforsynok@yandex.ru</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="footer__wrapper pl-0">
+                        <span class="footer__title footer__right-icon footer__right-icon-share">Мы в соцсетях</span>
+                        <div class="footer__list">
+                            <a class="footer__link footer__link-youtube" href="#"></a>
+                            <a class="footer__link footer__link-vk" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex flex-column">
+                        <a class="footer-logo" href="#"></a>
+                        <p class="footer__text">Ремонт и продажа форсунок к спецтехнике</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </main>
 
 
@@ -891,12 +1678,23 @@
 
 <script src="js/libs.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/pages/main.js"></script>
 
 <!-- JS Inline -->
 
 <script type="text/javascript">
+    $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
 
+    $('.list-companies').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4
+    });
 </script>
 
 </body>

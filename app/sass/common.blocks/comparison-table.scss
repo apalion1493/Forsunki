@@ -1,0 +1,175 @@
+.comparison-table__black-column {
+  background: #292F33;
+  color: #ffffff;
+
+  &.comparison-table__opacity-color {
+    background: #3E4347;
+  }
+}
+
+.comparison-table__orange-column {
+  background: #FDBF00;
+
+  &.comparison-table__opacity-color {
+    background: #FED24C;
+  }
+}
+
+.comparison-table__center-column {
+  background: #FFE165;
+
+  &.comparison-table__opacity-color {
+    background: #FFEA93;
+  }
+}
+
+.table.comparison-table {
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+
+  th, td {
+    height: 63px;
+    vertical-align: middle;
+    border-bottom: none;
+    border-top: none;
+    position: relative;
+  }
+
+  thead th {
+    text-transform: uppercase;
+    width: 25%;
+  }
+
+  thead th:nth-child(2),
+  thead th:nth-child(3) {
+    background: #F9D12F;
+  }
+
+  thead th:last-child {
+    background: #E8B312;
+  }
+
+  tr > th,
+  tr > td {
+    border-right: 2px solid #ffffff;
+  }
+
+  tbody td {
+    padding-left: 35px;
+    padding-right: 50px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #292F33;
+  }
+
+  .recommended {
+    background: url("../img/recommended-icon.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 10px;
+    right: 9px;
+  }
+
+  th p {
+    display: inline;
+    position: relative;
+    top: -12px;
+  }
+
+  .comparison-table__price-color {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #D64D00;
+  }
+}
+
+.table-icon-wrapper {
+  min-width: 45px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.table-icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.table-icon__check {
+  background: url("../../img/table-icon__check.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+}
+
+.table-icon__shield {
+  background: url("../../img/table-icon__shield.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 28px;
+}
+
+.table-icon__watch {
+  background: url("../../img/table-icon__watch.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 28px;
+  height: 28px;
+}
+
+.table-icon__documentation {
+  background: url("../../img/table-icon__documentation.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 23px;
+}
+
+.table-icon__box {
+  background: url("../../img/table-icon__box.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 29px;
+  height: 28px;
+}
+
+.table-icon__discounts {
+  background: url("../../img/table-icon__discounts.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 25px;
+  height: 30px;
+}
+
+.table-icon__plan {
+  background: url("../../img/table-icon__plan.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+}
+
+.table-icon__nozzle {
+  background: url("../../img/table-icon__nozzle.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 40px;
+  height: 40px;
+}
+
+.table-icon__delivery {
+  background: url("../../img/table-icon__delivery.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 37px;
+  height: 20px;
+}
+
+.table-icon__price {
+  background: url("../../img/table-icon__price.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+}

@@ -1,0 +1,145 @@
+.step-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.step-work__img {
+  background: #FFE165;
+  border-radius: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 104px;
+  margin-bottom: 18px;
+}
+
+.step-work__icon-phone {
+  background: url("../img/icon-phone.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 45px;
+  height: 45px;
+  display: block;
+}
+
+.step-work__icon-conversation {
+  background: url("../img/icon-conversation.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+.step-work__icon-truck {
+  background: url("../img/icon-truck.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.step-work__icon-diagnostic {
+  background: url("../img/icon-diagnostic.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.step-work__icon-tools {
+  background: url("../img/icon-tools.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.step-work__icon-box-yellow {
+  background: url("../img/icon-box-yellow.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 53px;
+  height: 53px;
+  display: block;
+}
+
+.step-work__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #292F33;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.step-work__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+
+  span {
+    font-weight: bold;
+    color: #F06D24;
+  }
+}
+
+.step-work__content {
+  max-width: 294px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-work__list {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.step-work__link {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+
+  &:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.step-work__btn {
+  max-width: 348px;
+  width: 100%;
+  height: 46px;
+  border-radius: 5px;
+  margin-top: 23px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.step-work__arrow {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: -140px;
+    background: url("../img/step-work__arrow.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 254px;
+    height: 40px;
+  }
+
+}
