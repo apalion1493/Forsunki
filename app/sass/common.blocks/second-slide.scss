@@ -4,3 +4,20 @@
   background: #FDF7DD;
 }
 
+@media (max-width: 1199.98px) {
+  .primary-card .card-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .second-slide {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .second-slide .row > div {
+    margin-top: 20px;
+  }
+}

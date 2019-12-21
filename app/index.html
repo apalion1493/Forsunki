@@ -19,18 +19,27 @@
     <header class="section main-header">
         <div class="container px-0">
             <div class="row">
-                <div class="col-7 main-header__menu">
+                <div class="col-xl-7 col-lg-8 col-2 main-header__menu">
+                    <div class="main-header__burger">
+                        <div class="container-burger">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <span class="main-header__burger-text">Меню</span>
+                    </div>
                     <nav class="main-menu">
-                        <a class="main-menu__link" href="#">Услуги</a>
-                        <a class="main-menu__link" href="#">Каталог</a>
-                        <a class="main-menu__link" href="#">Цены</a>
-                        <a class="main-menu__link" href="#">Сравнение форсунок </a>
-                        <a class="main-menu__link" href="#">О нас</a>
-                        <a class="main-menu__link" href="#">Преимущества</a>
-                        <a class="main-menu__link" href="#">Контакты</a>
+                        <button class="main-menu__close"></button>
+                        <a class="main-menu__link" href="#services">Услуги</a>
+                        <a class="main-menu__link" href="#catalog">Каталог</a>
+                        <a class="main-menu__link" href="#price">Цены</a>
+                        <a class="main-menu__link" href="#comparison">Сравнение форсунок </a>
+                        <a class="main-menu__link" href="#aboutUs">О нас</a>
+                        <a class="main-menu__link" href="#ourAdvantages">Преимущества</a>
+                        <a class="main-menu__link" href="#contacts">Контакты</a>
                     </nav>
                 </div>
-                <div class="col-5">
+                <div class="col-xl-5 col-lg-4 col-10">
                     <div class="d-flex align-items-center">
                         <div class="tel-phone tel-phone_list">
                             <a class="tel-phone__item tel-phone__rus active" href="#">+7 499 350 14 44</a>
@@ -42,7 +51,7 @@
                                 <div class="select-header">
                                     <select name="country" class="custom-select country-list">
                                         <option class="country-list__start" value="0">Выберете страну</option>
-                                        <option class="country-list__rus" value="1" selected>Россия</option>
+                                        <option class="country-list__rus" value="1" selected> Россия</option>
                                         <option class="country-list__ucr" value="2">Украина</option>
                                         <option class="country-list__brus" value="3">Беларусь</option>
                                     </select>
@@ -58,11 +67,12 @@
         <div class="container">
             <div class="row position-relative">
                 <img class="first-slide__bg" src="img/img-big-car.png" alt="">
-                <div class="col-8">
+                <div class="col-xl-8 col-lg-7">
                     <span class="first-slide__slogan">Ремонт и продажа форсунок для спецтехники с выгодой до <span
                             class="first-slide__slogan-color">70%</span></span>
+                    <img class="first-slide__bg-mobil" src="img/img-big-car__mobil.png" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-lg-5">
                     <div class="first-slide__block">
                         <div class="first-slide__block-wrapper">
                             <p class="first-slide__block-text"><span class="first-slide__block-title">Оставьте заявку
@@ -81,48 +91,48 @@
             </div>
         </div>
     </section>
-    <section class="section second-slide">
+    <section id="services" class="section second-slide">
         <div class="container">
             <h2 class="h2 text-center">Какие Услуги мы предлагаем</h2>
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card primary-card">
                         <img src="img/icon-repairs.svg" class="" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ремонт форсунок</h5>
                             <p class="card-text">Отремонтируем форсунки любой сложности к большинству видов спецтехники и грузовиков</p>
-                            <a href="#" class="btn btn-secondary main-btn">Заказать</a>
+                            <button class="btn btn-secondary main-btn" data-toggle="modal" data-target="#exampleModalCenter2">Заказать</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card primary-card">
                         <img src="img/icon-sale.svg" class="" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Продажа форсунок</h5>
                             <p class="card-text">У нас на складе имеется более 90% различных видов форсунок высокого качества</p>
-                            <a href="#" class="btn btn-secondary main-btn">Купить</a>
+                            <button class="btn btn-secondary main-btn" data-toggle="modal" data-target="#exampleModalCenter">Купить</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card primary-card">
                         <img src="img/icon-purchase.svg" class="" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Покупка форсунок</h5>
                             <p class="card-text">Если не знаете что делать с нерабочими или б/у форсунками, приобретем или примем в зачет их по выгодной для Вас цене</p>
-                            <a href="#" class="btn btn-secondary main-btn">Продать</a>
+                            <button class="btn btn-secondary main-btn" data-toggle="modal" data-target="#exampleModalCenter3">Продать</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section third-slide">
+    <section id="catalog" class="section third-slide">
         <div class="container">
             <h2 class="h2">Ремонтируем и продаем форсунки</h2>
             <div class="row">
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -166,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -210,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -254,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -298,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -342,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -386,7 +396,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -430,7 +440,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <img class="card-product__img" src="img/content-8.png" alt="...">
@@ -473,7 +483,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
@@ -517,7 +527,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <img class="card-product__img" src="img/content-10.png" alt="...">
@@ -560,7 +570,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <img class="card-product__img" src="img/content-11.png" alt="...">
@@ -603,7 +613,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-4">
+                <div class="col-xl-3 col-lg-6 col-6 mb-4">
                     <div class="card card-product">
                         <header class="card-product__header">
                             <img class="card-product__img" src="img/content-12.png" alt="...">
@@ -653,7 +663,7 @@
         <div class="container">
             <h2 class="h2">Ремонтируем форсунки для спецтехники</h2>
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-8">
                     <div class="list-logos list-logos__foreign">
                         <div class="list-logos__header list-logos__header-foreign">
                             <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-left-wrapper">
@@ -755,7 +765,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="list-logos list-logos__domestic">
                         <div class="list-logos__header list-logos__header-domestic">
                             <div class="list-logos__header-arrow-wrapper list-logos__header-arrow-left-wrapper">
@@ -823,13 +833,13 @@
     <section class="section fifth-slide orange-container">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-lg-5">
                     <div class="orange-container__desc orange-container__desc-pl">
                         <span class="orange-container__title">Не нашли нужную форсунку или марку спецтехники?</span>
                         <p class="orange-container__text">Свяжитесь с нами и наши менеджеры обязательно Вам помогут</p>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-lg-7">
                     <div class="block__form">
                         <input class="form-control first-slide__input" type="text" placeholder="Телефон">
                         <a href="#" class="btn btn-secondary main-btn mt-4 block__form-btn">Отправить</a>
@@ -840,27 +850,28 @@
             <div class="truck-img"></div>
         </div>
     </section>
-    <section class="section sixth-slide">
+    <section id="price" class="section sixth-slide">
         <div class="container">
             <h2 class="h2">Подробный прайс на ремонт форсунок</h2>
             <div class="row">
                 <div class="col-12">
                     <ul class="nav nav-pills row" id="pills-tab" role="tablist">
-                        <li class="nav-item col-3">
+                        <li class="nav-item col-6 col-lg-3">
                             <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Common Rail</a>
                         </li>
-                        <li class="nav-item col-3">
+                        <li class="nav-item col-6 col-lg-">
                             <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Пьезо</a>
                         </li>
-                        <li class="nav-item col-3">
+                        <li class="nav-item col-6 col-lg-">
                             <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Смарт</a>
                         </li>
-                        <li class="nav-item col-3">
+                        <li class="nav-item col-6 col-lg-">
                             <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact2" role="tab" aria-controls="pills-contact" aria-selected="false">Насос-форсунки</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <span class="sixth-slide__mobil-title">Common Rail</span>
                             <div class="border-table">
                                 <table class="table price-table" cellspacing="0">
                                     <thead>
@@ -901,10 +912,10 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с
-                                динамикой рынка.</p>
+                            <p class="sixth-slide__text"><span>*</span><span class="sixth-slide__text-main">Указанные цены имеют ознакомительный характер и могут меняться в соответствии сдинамикой рынка.</span></p>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <span class="sixth-slide__mobil-title">Common Rail</span>
                             <div class="border-table">
                                 <table class="table price-table" cellspacing="0">
                                     <thead>
@@ -945,9 +956,10 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                            <p class="sixth-slide__text"><span>*</span><span class="sixth-slide__text-main">Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</span></p>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <span class="sixth-slide__mobil-title">Common Rail</span>
                             <div class="border-table">
                                 <table class="table price-table" cellspacing="0">
                                     <thead>
@@ -988,9 +1000,10 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                            <p class="sixth-slide__text"><span>*</span><span class="sixth-slide__text-main">Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</span></p>
                         </div>
                         <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
+                            <span class="sixth-slide__mobil-title">Common Rail</span>
                             <div class="border-table">
                                 <table class="table price-table" cellspacing="0">
                                     <thead>
@@ -1031,14 +1044,14 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <p class="sixth-slide__text"><span>*</span>Указанные цены имеют ознакомительный характер и могут меняться в соответствии с динамикой рынка.</p>
+                            <p class="sixth-slide__text"><span>*</span><span class="sixth-slide__text-main">Указанные цены имеют ознакомительныйхарактер и могут меняться всоответствии с динамикой рынка.</span></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section seventh-slide">
+    <section id="comparison" class="section seventh-slide">
         <div class="container">
             <h2 class="h2">сРАВНЕНИЕ востановленной форсунки <br> над новой и б/у</h2>
             <div class="row">
@@ -1174,7 +1187,7 @@
     </section>
     <section class="section eighth-slide black-container">
         <div class="container">
-            <h2 class="h2">О нашей компании</h2>
+            <h2 class="h2" id="aboutUs">О нашей компании</h2>
             <div class="row">
                 <div class="col-12">
                     <div class="company-slider multiple-items">
@@ -1217,28 +1230,30 @@
 
             <h3 class="h3 mb-5">Честные отзывы на независимых площадках</h3>
             <div class="row">
-                <div class="col-4">
-                    <div class="reviews-text mt-2">
-                        <p class="reviews-text__p">Всего отзывов</p>
-                        <span class="reviews-text__span">> 170</span>
-                    </div>
-                    <div class="reviews-text mt-5 pt-4">
-                        <p class="reviews-text__p">Средняя оценка</p>
-                        <div class="d-flex">
-                            <span class="reviews-text__span">4,5/5</span>
-                            <div class="rating-block ml-3">
-                                <span class="star-state star-state_filled"></span>
-                                <span class="star-state star-state_filled"></span>
-                                <span class="star-state star-state_filled"></span>
-                                <span class="star-state star-state_half"></span>
-                                <span class="star-state star-state_hollow"></span>
+                <div class="col-lg-4">
+                    <div class="reviews-container">
+                        <div class="reviews-text">
+                            <p class="reviews-text__p">Всего отзывов</p>
+                            <span class="reviews-text__span">> 170</span>
+                        </div>
+                        <div class="reviews-text">
+                            <p class="reviews-text__p">Средняя оценка</p>
+                            <div class="d-flex">
+                                <span class="reviews-text__span">4,5/5</span>
+                                <div class="rating-block ml-3">
+                                    <span class="star-state star-state_filled"></span>
+                                    <span class="star-state star-state_filled"></span>
+                                    <span class="star-state star-state_filled"></span>
+                                    <span class="star-state star-state_half"></span>
+                                    <span class="star-state star-state_hollow"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Отзывы Яндекс</span>
                                 <img class="review-block__logo" src="img/logo-yandex.png" alt="">
@@ -1256,7 +1271,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Отзывы Google</span>
                                 <img class="review-block__logo" src="img/logo-google.png" alt="">
@@ -1274,7 +1289,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Отзывы СПР</span>
                                 <img class="review-block__logo" src="img/logo-spr.svg" alt="">
@@ -1292,7 +1307,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Сервис Отзывы</span>
                                 <img class="review-block__logo" src="img/otzyv_logo.png" alt="">
@@ -1310,7 +1325,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Сервис отзывов zoon</span>
                                 <img class="review-block__logo" src="img/zoon_logo.png" alt="">
@@ -1328,7 +1343,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Сайт Дизель Форс</span>
                                 <img class="review-block__logo" src="img/logo-remont-forsunok.png" alt="">
@@ -1346,7 +1361,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Сайт TIU.RU</span>
                                 <img class="review-block__logo" src="img/logo-tiur_ru.svg" alt="">
@@ -1364,7 +1379,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mb-5">
+                        <div class="col-xl-3 col-lg-4 col-md-4 mb-5">
                             <div class="review-block">
                                 <span class="review-block__text">Каталог Cataloxy</span>
                                 <img class="review-block__logo" src="img/ataloxy-logo.png" alt="">
@@ -1386,8 +1401,9 @@
                 </div>
             </div>
 
-            <h2 class="h2">Наши преимущества</h2>
-            <span>Решение Вашей головной боли  —  <span>приоритетная задача</span></span>
+            <h2 class="h2" id="ourAdvantages">Наши преимущества</h2>
+            <span class="ourAdvantages__slogan">Решение Вашей головной боли  —
+                <span class="ourAdvantages__slogan-color">приоритетная задача</span></span>
             <div class="row">
                 <div class="col-6 mb-4">
                     <div class="advantages-item">
@@ -1603,7 +1619,7 @@
             </div>
         </div>
     </section>
-    <section class="section fourteenth-slide orange-container">
+    <section id="contacts" class="section fourteenth-slide orange-container">
         <div class="background-triangle"></div>
         <div class="container">
             <div class="row">
@@ -1671,6 +1687,67 @@
     </footer>
 </main>
 
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Купить</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="modal-close" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body__wrapper">
+                    <span class="modal-body__title">Хотите купить форсунки?</span>
+                    <p class="modal-body__text">Просто укажите ваш телефон, и мы вам презвоним. </p>
+                    <input class="form-control first-slide__input" type="text" placeholder="Телефон">
+                    <button class="btn btn-secondary main-btn first-slide__btn">Отправить</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p class="modal-footer__text">Личные данные защищины <a href="#">правами потребителя</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-request" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle2">Купить</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="modal-close" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body__wrapper">
+                    <span class="modal-body__title">Спасибо за заявку, мы перезвоним через 5 — 10 минут</span>
+                </div>
+                <img class="modal-request__img" src="img/modal-img-human.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-memo" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle3">Личные данные</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="modal-close" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body__wrapper">
+                    <span class="modal-body__title">Использование личных данных</span>
+                    <p class="modal-body__text">В целом, конечно, курс на социально-ориентированный национальный проект влечет за собой процесс внедрения и модернизации
+                        первоочередных требований. Равным образом, реализация намеченных плановых заданий играет определяющее значение для приоритизации разума над эмоциями. Задача организации, в особенности же высококачественный прототип будущего проекта является качественно новой ступенью глубокомысленных рассуждений.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- JAVASCRIPT ================================================== -->
 
@@ -1687,7 +1764,17 @@
     $('.multiple-items').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            }
+        ]
     });
 
     $('.list-companies').slick({

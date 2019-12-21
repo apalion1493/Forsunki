@@ -13,6 +13,7 @@
   line-height: 22px;
   color: $color-fourth;
 
+
   select {
     display: none;
   }
@@ -20,30 +21,31 @@
 
 .select-selected {
   background-color: #292F33;
-}
 
-.select-selected:after {
-  position: absolute;
-  content: "";
-  top: 17px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: $color-fourth transparent transparent transparent;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 10px;
+    background: url("../img/select-check.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 14px;
+    height: 14px;
+    transition: 0.2s;
+  }
 }
 
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent $color-fourth transparent;
-  top: 12px;
+  transform: rotate(180deg);
+  transition: 0.2s;
 }
 
 .select-items div,.select-selected {
   color: $color-fourth;
   padding: 8px 16px;
   padding-right: 30px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  //border: 1px solid transparent;
+  //border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
   user-select: none;
 }
@@ -63,4 +65,10 @@
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991.98px) {
+  .select-header {
+    font-size: 14px;
+  }
 }

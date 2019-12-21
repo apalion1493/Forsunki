@@ -18,20 +18,25 @@
   color: #FFFFFF;
   position: relative;
 
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: -10%;
+    height: 4px;
+    background: $color-third;
+    transition: 0.3s;
+    width: 120%;
+    opacity: 0;
+  }
+
   &:hover {
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s;
 
     &:before {
-      content: '';
-      position: absolute;
-      bottom: -26px;
-      left: -10%;
-      width: 120%;
-      height: 4px;
-      background: $color-third;
-      transition: 0.3s;
+      opacity: 1;
     }
   }
 }
@@ -39,4 +44,107 @@
 .main-header__menu {
   display: flex;
   align-items: center;
+}
+
+.main-menu__close {
+  display: none;
+}
+
+// burger-style
+.container-burger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 22px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 4px 0;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.active .bar1 {
+  transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.active .bar2 {opacity: 0;}
+
+.active .bar3 {
+  transform: rotate(45deg) translate(-4px, -6px);
+}
+
+.main-header__burger {
+  display: none;
+  align-items: center;
+}
+
+.main-header__burger-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+//
+
+@media (max-width: 991.98px) {
+  .main-menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    min-height: 100vh;
+    height: 100%;
+    width: 220px;
+    background: #292F33;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.25);
+    border: 1px solid;
+    z-index: 100;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    padding: 23px 15px 0 15px;
+    transition: 0.3s;
+
+    .main-menu__link {
+      margin-bottom: 15px;
+    }
+
+    .main-menu__link:before {
+      bottom: -10px;
+      left: 0;
+      width: 110%;
+    }
+
+    .main-menu__close {
+      background: url("../img/modal-close-icon.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: block;
+      border: none;
+
+      &:hover {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+  }
+
+  .main-menu.active {
+    left: 0;
+    transition: 0.3s;
+  }
+
+  .main-header__burger {
+    display: flex;
+  }
+
+
 }

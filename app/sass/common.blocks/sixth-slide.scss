@@ -33,9 +33,62 @@
   color: #F06D24;
   margin-top: 19px;
   padding-left: 23px;
+  display: flex;
 
   span {
     font-size: 24px;
     margin-right: 14px;
+    margin-top: 2px;
   }
+
+  .sixth-slide__text-main {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+  }
+}
+
+.sixth-slide__mobil-title {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+
+  .sixth-slide__mobil-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #292F33;
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  .sixth-slide {
+    .nav-pills {
+      margin-bottom: 30px;
+    }
+  }
+
+  .sixth-slide .nav-pills .nav-link {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FBEDE6 100%);
+    height: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 11px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .sixth-slide__text {
+    span {
+      margin-top: 0;
+    }
+
+    .sixth-slide__text-main {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+
 }

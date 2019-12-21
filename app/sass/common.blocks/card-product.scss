@@ -7,7 +7,7 @@
   height: 100%;
 
   .card-title {
-    font-family: "Open Sans", sans-serif;
+
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -35,7 +35,7 @@
 }
 
 .card-product__label {
-  font-family: "Open Sans", sans-serif;
+
   background: #F06D24;
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@
 }
 
 .card-product__mark {
-  font-family: "Open Sans", sans-serif;
+
   font-size: 14px;
   line-height: 19px;
   color: #292F33;
@@ -108,6 +108,8 @@
   font-size: 14px;
   line-height: 19px;
   color: #F06D24;
+  position: relative;
+  top: -5px;
 }
 
 .card-product__border {
@@ -214,4 +216,46 @@
   &:nth-child(2) {
     margin-left: 12px;
   }
+}
+
+@media (max-width: 991.98px)  {
+  .card-product__label {
+    width: 100%;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  .card-product {
+    .card-title {
+      font-size: 15px;
+    }
+
+    .card-product__mark {
+      font-size: 12px;
+    }
+
+    .card-product__border {
+      box-shadow: none;
+    }
+
+    .card-product__first-block {
+      height: 36px;
+    }
+  }
+
+  .card-product__second-block .card-text {
+    display: none;
+  }
+
+  .card-product__second-block .card-product__second-block-price {
+    text-align: center;
+    justify-content: center;
+  }
+
 }

@@ -96,7 +96,7 @@
 }
 
 .list-logos__hidden-link {
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
@@ -122,4 +122,32 @@
 
 .list-logos__header-domestic {
   max-width: 291px;
+}
+
+@media (max-width: 991.98px) {
+  .list-logos__header-title {
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .list-logos__foreign {
+    margin-right: 30px;
+  }
+
+  .list-logos__domestic {
+    margin-left: 10px;
+  }
+
+  .list-logos__header-arrow-left-wrapper {
+    margin-right: 0;
+  }
+
+  .list-logos__header-arrow-right-wrapper {
+    margin-left: 0;
+  }
 }

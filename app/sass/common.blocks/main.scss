@@ -1,3 +1,11 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  overflow: hidden;
+}
+
 .tel-phone_list {
   display: flex;
   flex-direction: column;
@@ -11,6 +19,11 @@
   color: $color-second;
   display: none;
 
+  &:hover {
+    text-decoration: none;
+    color: $color-second;
+  }
+
   &.active {
     display: block;
   }
@@ -21,6 +34,8 @@
   align-items: center;
   justify-content: center;
   font-size: 16px;
+  background: linear-gradient(180deg, #F06D24 0%, #DB5C14 100%);
+  box-shadow: 0 2px 3px rgba(31, 14, 5, 0.2);
 }
 
 h2.h2 {
@@ -199,8 +214,116 @@ h3.h3 {
   transform: translate(-50%,-50%);
 }
 
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+
+  .reviews-text:nth-child(1) {
+    margin-top: 6px;
+  }
+
+  .reviews-text:nth-child(2) {
+    margin-top: 70px;
+  }
+}
+
+.ourAdvantages__slogan {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 36px;
+}
+
+.ourAdvantages__slogan-color {
+  color: $color-second;
+}
+
 @media (min-width: 1200px) {
   .app .container {
     max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .truck-img {
+    left: 56%;
+  }
+
+  .repairer-img {
+    left: 59%;
+  }
+
+  .background-phone-image {
+    left: 67%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .tel-phone__item {
+    font-size: 18px;
+  }
+
+  h2.h2 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .main-btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .background-triangle {
+    background: url("../../img/background-triangle__mobil.svg") no-repeat top;
+    background-size: 100% auto;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 235px;
+  }
+
+  h3.h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .reviews-text__p {
+    font-size: 16px;
+  }
+
+  .reviews-text__span {
+    font-size: 32px;
+    line-height: 47px;
+  }
+
+  .reviews-container {
+    flex-direction: row;
+
+    .reviews-text {
+      width: 50%;
+      margin-bottom: 30px;
+
+      .rating-block {
+        display: none;
+      }
+    }
+
+    .reviews-text:nth-child(1) {
+      margin-top: 0;
+    }
+
+    .reviews-text:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+
+  .ourAdvantages__slogan {
+    font-size: 18px;
+    line-height: 27px;
   }
 }

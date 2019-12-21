@@ -6,3 +6,17 @@
     margin-bottom: 24px;
   }
 }
+
+@media (max-width: 991.98px) {
+  .third-slide {
+    padding-top: 35px;
+    padding-bottom: 14px;
+
+    .row > div:nth-child(9),
+    .row > div:nth-child(10),
+    .row > div:nth-child(11),
+    .row > div:nth-child(12) {
+      display: none;
+    }
+  }
+}

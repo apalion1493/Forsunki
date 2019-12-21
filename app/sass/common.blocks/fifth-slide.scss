@@ -9,9 +9,35 @@
     position: relative;
   }
 
-
-
   &.orange-container {
     background: initial;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .fifth-slide {
+    .container {
+      padding-top: 35px;
+      padding-bottom: 45px;
+    }
+
+    .orange-container__desc-pl {
+      padding-left: 0;
+    }
+
+    .orange-container__title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .orange-container__text {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: normal;
+    }
+
+    .block__form {
+      margin-top: 180px;
+    }
   }
 }

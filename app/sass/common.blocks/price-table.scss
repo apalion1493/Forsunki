@@ -84,3 +84,28 @@
 .bg-row-color {
   background: #FAF8F2;
 }
+
+@media (max-width: 991.98px) {
+  .table.price-table thead th:nth-child(2),
+  .table.price-table td {
+    padding-left: 15px;
+    width: 140px;
+  }
+
+  .table.price-table td {
+    font-size: 16px;
+  }
+
+  .table.price-table tbody th {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .table.price-table thead th {
+    font-size: 14px;
+  }
+
+  .table-star-orange {
+    font-size: 14px;
+  }
+}
