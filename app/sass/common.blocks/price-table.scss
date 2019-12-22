@@ -109,3 +109,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .table.price-table thead th:nth-child(2), .table.price-table td {
+    width: 100px;
+  }
+}

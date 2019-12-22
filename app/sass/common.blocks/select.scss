@@ -25,7 +25,7 @@
   &:after {
     position: absolute;
     content: "";
-    top: 15px;
+    top: 11px;
     right: 10px;
     background: url("../img/select-check.svg") no-repeat center;
     background-size: 100% auto;
@@ -44,8 +44,6 @@
   color: $color-fourth;
   padding: 8px 16px;
   padding-right: 30px;
-  //border: 1px solid transparent;
-  //border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
   user-select: none;
 }

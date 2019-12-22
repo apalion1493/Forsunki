@@ -41,3 +41,76 @@
     }
   }
 }
+
+@media (max-width: 1300px) {
+  .company-slider {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .company-slider__item iframe, .company-slider__item img {
+    height: 190px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .company-slider__item iframe, .company-slider__item img {
+    height: 220px;
+  }
+
+  .company-slider .slick-prev:before {
+    content: '';
+    background: url(../img/list-companies__arrow-left.svg) no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  .company-slider .slick-next:before {
+    content: '';
+    background: url(../img/list-companies__arrow-right.svg) no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  .company-slider .slick-prev {
+    left: -35px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .company-slider__item iframe, .company-slider__item img {
+    height: 165px;
+  }
+
+  .company-slider {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .company-slider__item iframe, .company-slider__item img {
+    height: 238px;
+  }
+
+  .company-slider {
+    max-width: 80%;
+  }
+
+  .company-slider__item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 390px) {
+  .company-slider__item iframe, .company-slider__item img {
+    height: 182px;
+  }
+}

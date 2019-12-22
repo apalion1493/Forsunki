@@ -78,3 +78,36 @@
 .list-companies__item-colorGrey {
   background: #F7F7F7;
 }
+
+@media (max-width: 1300px) {
+  .list-companies {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .list-companies__item {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .list-companies .slick-prev:before,
+  .list-companies .slick-next:before {
+    width: 32px;
+    height: 32px;
+  }
+
+  .list-companies .slick-prev {
+    left: -35px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .list-companies {
+    max-width: 80%;
+  }
+}

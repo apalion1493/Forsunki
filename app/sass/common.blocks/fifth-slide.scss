@@ -3,14 +3,19 @@
 
   .container {
     background: linear-gradient(226.16deg, #FDBF00 4.37%, #FFE165 98.28%);
-    border-radius: 10px;
     padding-top: 55px;
     padding-bottom: 74px;
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
   }
 
   &.orange-container {
     background: initial;
+  }
+
+  .block__form {
+    margin-top: 25px;
   }
 }
 
@@ -38,6 +43,20 @@
 
     .block__form {
       margin-top: 180px;
+      margin-right: auto;
+      max-width: 297px;
+
+      .block__form-btn {
+        max-width: 100%;
+        margin-top: 11px !important;
+      }
     }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fifth-slide.orange-container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

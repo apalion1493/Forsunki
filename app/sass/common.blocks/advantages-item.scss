@@ -84,3 +84,48 @@
   font-size: 14px;
   line-height: 19px;
 }
+
+@media (max-width: 767.98px) {
+  .advantages-item__img {
+    min-width: 73px;
+    width: 73px;
+    align-items: flex-start;
+    padding-top: 25px;
+  }
+
+  .advantages-item__icon-union {
+    width: 34px;
+  }
+
+  .advantages-item__icon-forsunki {
+    width: 45px;
+  }
+
+  .advantages-item__icon-file {
+    width: 45px;
+  }
+
+  .advantages-item__icon-discount {
+    width: 45px;
+  }
+
+  .advantages-item__icon-box {
+    width: 45px;
+  }
+
+  .advantages-item__icon-rub {
+    width: 48px;
+  }
+
+  .advantages-item__content-title {
+    font-size: 16px;
+  }
+
+  .advantages-item__content-text {
+    font-size: 12px;
+
+    br {
+      display: none;
+    }
+  }
+}

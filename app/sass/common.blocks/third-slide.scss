@@ -20,3 +20,15 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .third-slide .row {
+    & > div:nth-child(odd) {
+      padding-right: 8px;
+    }
+
+    & > div:nth-child(even) {
+      padding-left: 8px;
+    }
+  }
+}

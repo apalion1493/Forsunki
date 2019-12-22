@@ -8,7 +8,7 @@
 .footer__wrapper {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
+  padding-left: 15px;
 }
 
 .footer__title {
@@ -88,34 +88,101 @@
   }
 }
 
-.footer__right-icon-marker {
+.footer-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  top: -15px;
 
-  &:before {
-    content: '';
-    width: 29px;
-    height: 27px;
-    background: url("../img/placeholder-filled-point.svg") no-repeat center;
-    background-size: 100% auto;
+  .footer__text {
+    max-width: 214px;
   }
 }
 
-.footer__right-icon-message {
+.footer-icon {
+  display: block;
+}
 
-  &:before {
-    content: '';
-    width: 22px;
-    height: 22px;
-    background: url("../img/black-back-closed-envelope-shape1.svg") no-repeat center;
-    background-size: 100% auto;
+.footer-marker {
+  min-width: 29px;
+  width: 29px;
+  height: 27px;
+  background: url(../img/placeholder-filled-point.svg) no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer-mail {
+  min-width: 22px;
+  width: 22px;
+  height: 22px;
+  background: url(../img/black-back-closed-envelope-shape1.svg) no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer-share {
+  min-width: 25px;
+  width: 25px;
+  height: 25px;
+  background: url("../img/share-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-email-container {
+  flex-direction: column;
+  display: flex;
+}
+
+@media (max-width: 1199.98px) {
+  .footer-container-wrapper {
+    align-items: center;
+  }
+
+  .footer__wrapper {
+    margin-bottom: 30px;
   }
 }
 
-.footer__right-icon-share {
-  &:before {
-    content: '';
-    width: 25px;
-    height: 25px;
-    background: url("../img/share-icon.svg") no-repeat center;
-    background-size: 100% auto;
+@media (max-width: 991.98px) {
+  .footer-container-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__wrapper {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .footer__text {
+    width: 100%;
+  }
+
+  .footer-email-container {
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .footer__wrapper {
+    margin-bottom: 40px;
+
+    .footer__text:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-container-wrapper {
+    align-items: center;
+    margin-top: 34px;
   }
 }

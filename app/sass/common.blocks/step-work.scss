@@ -143,3 +143,82 @@
   }
 
 }
+
+@media (max-width: 991.98px) {
+  .step-work {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .step-work__content {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    margin-left: 16px;
+  }
+
+  .step-work__title {
+    text-align: left;
+  }
+
+  .step-work__arrow:before {
+    display: none;
+  }
+
+  .step-work__img {
+    min-width: 76px;
+    width: 76px;
+    height: 76px;
+    border-radius: 29px;
+    margin-bottom: 0;
+    position: relative;
+    
+    &:before {
+      content: '';
+      position: absolute;
+      left: 27px;
+      background: url("../../img/mobil-arrow-bottom.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 22px;
+      height: 22px;
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .step-work__title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #292F33;
+    margin-bottom: 10px;
+  }
+
+  .step-work__content {
+    margin-top: 10px;
+  }
+
+  .step-work__link {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .step-work__btn {
+    max-width: 188px;
+    font-size: 14px;
+    line-height: 19px;
+    height: 40px;
+
+    span {
+      display: none;
+    }
+  }
+
+  .step-work {
+    margin-top: 60px;
+  }
+
+  .step-work__mobil-mt {
+    margin-top: 15px;
+  }
+}
