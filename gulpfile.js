@@ -33,11 +33,12 @@ gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'app/libs/jquery/jquery.min.js',
         'app/libs/bootstrap/bootstrap.min.js',
+        'app/libs/wow/wow.min.js',
 		'app/js/pages/**/*.js'
         ])
         .pipe(plumber())
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
-        .pipe(uglify()) // Сжимаем JS файл
+        //.pipe(uglify()) // Сжимаем JS файл
         .pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
 });
 

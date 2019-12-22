@@ -75,6 +75,10 @@
     }
   }
 
+  .modal-body {
+    overflow: hidden;
+  }
+
   .modal-body__wrapper {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -129,7 +133,7 @@
   .modal-request__img {
     position: absolute;
     right: -10px;
-    top: 0;
+    bottom: 0;
   }
 }
 
@@ -138,5 +142,15 @@
     max-width: 382px;
     padding-top: 34px;
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .modal.modal-request .modal-request__img {
+    width: 70%;
+  }
+
+  .modal.modal-request .modal-body__wrapper {
+    padding-left: 0;
   }
 }
