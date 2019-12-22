@@ -294,11 +294,9 @@
   .card-product__main-btn {
     font-size: 12px;
   }
-}
 
-@media (max-width: 575.98px) {
-  .main-header__menu {
-    padding-left: 30px;
+  .card-product__logo {
+    max-width: 50px;
   }
 }
 

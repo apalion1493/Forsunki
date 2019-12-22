@@ -6,10 +6,15 @@
       padding-top: 55px;
       padding-bottom: 50px;
     }
-
   }
 
   .block__form {
     margin-top: 37px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .eleventh-slide {
+    display: none;
   }
 }

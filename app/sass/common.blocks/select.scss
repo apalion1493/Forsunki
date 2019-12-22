@@ -69,4 +69,19 @@
   .select-header {
     font-size: 14px;
   }
+
+  .select-selected:after {
+    right: 0;
+  }
+
+  .select-items div, .select-selected {
+    padding-right: 20px;
+  }
 }
+
+@media (max-width: 360px) {
+  .select-header {
+    font-size: 12px;
+  }
+}
+

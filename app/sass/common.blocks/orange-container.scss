@@ -70,3 +70,16 @@
     top: 2px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .orange-container__title {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .orange-container__text,
+  .orange-container__lick {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

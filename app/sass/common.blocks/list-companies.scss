@@ -13,6 +13,7 @@
       width: 42px;
       height: 42px;
       display: block;
+      opacity: 1;
     }
   }
 
@@ -26,6 +27,7 @@
       width: 42px;
       height: 42px;
       display: block;
+      opacity: 1;
     }
   }
 }
@@ -103,6 +105,10 @@
 
   .list-companies .slick-prev {
     left: -35px;
+  }
+
+  .list-companies {
+    margin-top: 8px !important;
   }
 }
 

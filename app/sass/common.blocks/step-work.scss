@@ -145,6 +145,10 @@
 }
 
 @media (max-width: 991.98px) {
+  .step-work__text {
+    font-size: 14px;
+  }
+
   .step-work {
     flex-direction: row;
     align-items: flex-start;
