@@ -98,3 +98,15 @@
     padding-bottom: 18px;
   }
 }
+
+@media (max-width: 500px) {
+  .sixth-slide .nav-pills .nav-link {
+    height: 40px;
+  }
+}
+
+@media (max-width: 335px) {
+  .sixth-slide .nav-pills .nav-link {
+    height: 75px;
+  }
+}
