@@ -281,7 +281,7 @@
     }
 
     .card-product__first-block {
-      height: 36px;
+      height: 35px;
     }
   }
 
@@ -304,6 +304,7 @@
 
   .card-product__header {
     height: 214px;
+    min-height: 214px;
 
     .card-product__img {
       height: 200px;
@@ -349,5 +350,11 @@
 
   .card-product {
     min-width: 164px;
+  }
+}
+
+@media (max-width: 374px) {
+  .card-product .card-body.active {
+    position: static !important;
   }
 }
