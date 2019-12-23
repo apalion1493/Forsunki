@@ -1868,15 +1868,6 @@
         ]
     });
 
-    $(document).mouseup(function (e){ // событие клика по веб-документу
-        var div = $(".card-product.active"); // тут указываем ID элемента
-        if (!div.is(e.target) && div.has(e.target).length === 0) {
-                $('.card-product__border-btn').parent().parent().children().removeClass('active');
-                $('.card-product__border-btn').parent().parent().parent().parent().removeClass('active');
-                $('.card-product__border-btn').parent().parent().removeClass('active');
-        }
-    });
-
     new WOW().init();
 
 </script>

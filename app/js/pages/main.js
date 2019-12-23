@@ -23,8 +23,14 @@ $('.card-product__border-btn').click(function () {
     $(this).parent().parent().toggleClass('active');
 });
 
-
-
+$(document).mouseup(function (e){
+    var div = $(".card-product.active");
+    if (!div.is(e.target) && div.has(e.target).length === 0) {
+        $('.card-product__border-btn').parent().parent().children().removeClass('active');
+        $('.card-product__border-btn').parent().parent().parent().parent().removeClass('active');
+        $('.card-product__border-btn').parent().parent().removeClass('active');
+    }
+});
 
 $('.list-logos__hidden-link').click(function () {
     if($(this).hasClass('active')) {
