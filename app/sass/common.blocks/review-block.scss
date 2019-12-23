@@ -11,6 +11,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .review-block__text {

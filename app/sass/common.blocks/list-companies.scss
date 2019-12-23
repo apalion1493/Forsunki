@@ -45,36 +45,59 @@
   align-items: center;
 }
 
-.list-companies__logo-rosneft {
-  background: url("../img/logo-rosneft.png") no-repeat center;
-  background-size: 100% auto;
-  width: 138px;
-  height: 102px;
+.list-companies__logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
-.list-companies__logo-zeppelin {
-  background: url("../img/logo-zeppelin.png") no-repeat center;
-  background-size: 100% auto;
-  width: 183px;
-  height: 72px;
-  display: block;
+//.list-companies__logo-1 {
+//  background: url("../../img/logos/photo_2019-12-13_09-48-38__1.jpg") no-repeat center;
+//  background-size: 100% auto;
+//  width: 138px;
+//  height: 102px;
+//  display: block;
+//}
+
+.list-companies__logo-2 {
+  height: 122px;
 }
 
-.list-companies__logo-avtodor {
-  background: url("../img/logo-avtodor.png") no-repeat center;
-  background-size: 100% auto;
-  width: 157px;
-  height: 106px;
-  display: block;
+.list-companies__logo-3 {
+  height: 152px;
 }
 
-.list-companies__logo-lukoil {
-  background: url("../img/logo-lukoil.png") no-repeat center;
-  background-size: 100% auto;
-  width: 211px;
-  height: 49px;
-  display: block;
+.list-companies__logo-4 {
+  height: 100px;
+}
+
+.list-companies__logo-5 {
+  height: 75px;
+}
+
+.list-companies__logo-6 {
+  height: 164px;
+  width: 80%;
+}
+
+.list-companies__logo-7 {
+  width: 90%;
+  height: 90%;
+}
+
+.list-companies__logo-8 {
+  width: 90%;
+}
+
+.list-companies__logo-9 {
+  width: 90%;
+}
+
+.list-companies__logo-10 {
+  width: 74%;
 }
 
 .list-companies__item-colorGrey {
