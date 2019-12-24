@@ -138,6 +138,10 @@
     }
   }
 
+  .main-menu__link-mob {
+    display: none;
+  }
+
   .main-menu.active {
     left: 0;
     transition: 0.3s;
@@ -146,6 +150,11 @@
   .main-header__burger {
     display: flex;
   }
+}
 
-
+@media (max-width: 767.98px) {
+  .main-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }

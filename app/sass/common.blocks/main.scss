@@ -2,6 +2,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.app {
+  overflow: hidden;
+}
+
 .tel-phone_list {
   display: flex;
   flex-direction: column;
@@ -31,9 +35,28 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  background: linear-gradient(180deg, #F06D24 0%, #DB5C14 100%);
+  //background: linear-gradient(180deg, #F06D24 0%, #DB5C14 100%);
   box-shadow: 0 2px 3px rgba(31, 14, 5, 0.2);
 }
+
+.btn-secondary.main-btn {
+  transition: all .3s ease-in-out;
+  background-image: linear-gradient(to right, #F06D24, #DB5C14, #fff, #fff);
+  background-size: 300% 100%;
+
+  &:hover {
+    background-position: 100% 0;
+    transition: all .3s ease-in-out;
+    color: #000000;
+    outline: none;
+  }
+
+  &:active {
+    color: #000 !important;
+  }
+}
+
+
 
 h2.h2 {
   font-weight: bold;

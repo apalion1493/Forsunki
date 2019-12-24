@@ -11,6 +11,12 @@
   height: 93px;
   cursor: pointer;
   overflow: hidden;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
 
   img {
     max-width: 100%;

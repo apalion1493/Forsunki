@@ -38,3 +38,15 @@
     }
   }
 }
+
+@media (max-width: 374px) {
+  .third-slide .row {
+    & > div:nth-child(odd) {
+      padding-right: 15px;
+    }
+
+    & > div:nth-child(even) {
+      padding-left: 15px;
+    }
+  }
+}
