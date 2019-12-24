@@ -23,6 +23,12 @@
   margin-right: -15px;
   margin-bottom: 40px;
 
+  .slick-prev,
+  .slick-next {
+    width: 47px;
+    height: 47px;
+  }
+
   .slick-prev {
     left: -50px;
 
@@ -37,7 +43,7 @@
   }
 
   .slick-next {
-    right: -25px;
+    right: -50px;
 
     &:before {
       content: '';
@@ -65,6 +71,18 @@
 }
 
 @media (max-width: 991.98px) {
+
+  .company-slider {
+    .slick-prev, .slick-next {
+      width: 32px;
+      height: 32px;
+    }
+
+    .slick-next {
+      right: -35px;
+    }
+  }
+
   .company-slider__item iframe, .company-slider__item img {
     height: 220px;
   }

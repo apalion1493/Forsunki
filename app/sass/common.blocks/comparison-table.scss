@@ -38,6 +38,7 @@
   thead th {
     text-transform: uppercase;
     width: 25%;
+    padding-left: 35px;
   }
 
   thead th:nth-child(2),
@@ -56,7 +57,7 @@
 
   tbody td {
     padding-left: 35px;
-    padding-right: 50px;
+    padding-right: 55px;
 
     font-weight: bold;
     font-size: 16px;
@@ -100,28 +101,28 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-40%);
 }
 
 .table-icon__check {
   background: url("../img/table-icon__check.svg") no-repeat center;
   background-size: 100% auto;
-  width: 27px;
-  height: 27px;
+  width: 24px;
+  height: 24px;
 }
 
 .table-icon__shield {
   background: url("../img/table-icon__shield.svg") no-repeat center;
   background-size: 100% auto;
-  width: 23px;
-  height: 28px;
+  width: 20px;
+  height: 24px;
 }
 
 .table-icon__watch {
   background: url("../img/table-icon__watch.svg") no-repeat center;
   background-size: 100% auto;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .table-icon__documentation {
@@ -134,41 +135,41 @@
 .table-icon__box {
   background: url("../img/table-icon__box.svg") no-repeat center;
   background-size: 100% auto;
-  width: 29px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .table-icon__discounts {
   background: url("../img/table-icon__discounts.svg") no-repeat center;
   background-size: 100% auto;
-  width: 25px;
+  width: 22px;
   height: 30px;
 }
 
 .table-icon__plan {
   background: url("../img/table-icon__plan.svg") no-repeat center;
   background-size: 100% auto;
-  width: 27px;
-  height: 27px;
+  width: 24px;
+  height: 24px;
 }
 
 .table-icon__nozzle {
   background: url("../img/table-icon__nozzle.svg") no-repeat center;
   background-size: 100% auto;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .table-icon__delivery {
   background: url("../img/table-icon__delivery.svg") no-repeat center;
   background-size: 100% auto;
-  width: 37px;
+  width: 30px;
   height: 20px;
 }
 
 .table-icon__price {
   background: url("../img/table-icon__price.svg") no-repeat center;
   background-size: 100% auto;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
 }

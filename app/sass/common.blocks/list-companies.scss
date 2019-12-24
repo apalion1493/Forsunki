@@ -2,6 +2,12 @@
   margin-left: -15px;
   margin-right: -15px;
 
+  .slick-prev,
+  .slick-next {
+    width: 42px;
+    height: 42px;
+  }
+
   .slick-prev {
     left: -50px;
     top: 45%;
@@ -19,6 +25,7 @@
 
   .slick-next {
     top: 45%;
+    right: -50px;
 
     &:before {
       content: '';
@@ -53,14 +60,6 @@
   width: 100%;
   height: 100%;
 }
-
-//.list-companies__logo-1 {
-//  background: url("../../img/logos/photo_2019-12-13_09-48-38__1.jpg") no-repeat center;
-//  background-size: 100% auto;
-//  width: 138px;
-//  height: 102px;
-//  display: block;
-//}
 
 .list-companies__logo-2 {
   height: 122px;

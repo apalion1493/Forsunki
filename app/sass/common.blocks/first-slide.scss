@@ -3,6 +3,7 @@
   padding-top: 42px;
   padding-bottom: 161px;
   position: relative;
+  margin-top: 74px;
 
   &:before {
     content: '';
@@ -213,4 +214,10 @@
       text-align: left;
     }
   }
+}
+
+@media (max-width: 361px) {
+ .first-slide {
+   margin-top: 68px;
+ }
 }

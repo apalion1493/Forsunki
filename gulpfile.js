@@ -34,6 +34,7 @@ gulp.task('scripts', function() {
         'app/libs/jquery/jquery.min.js',
         'app/libs/bootstrap/bootstrap.min.js',
         'app/libs/wow/wow.min.js',
+        'app/libs/light-zoom/lightzoom.js',
 		'app/js/pages/**/*.js'
         ])
         .pipe(plumber())
