@@ -264,6 +264,12 @@ h3.h3 {
   color: $color-second;
 }
 
+#lz-close {
+  background: url("../img/close.png") no-repeat center;
+  background-size: 100% auto;
+  opacity: 1;
+}
+
 @media (min-width: 1200px) {
   .app .container {
     max-width: 1200px;
@@ -403,3 +409,4 @@ h3.h3 {
     font-size: 12px;
   }
 }
+

@@ -306,7 +306,7 @@
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
                             <img class="card-product__img" src="img/content-5.png" alt="...">
-                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="">
+                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="" width="105">
                         </header>
 
 
@@ -349,7 +349,7 @@
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
                             <img class="card-product__img" src="img/content-6.png" alt="...">
-                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="">
+                            <img class="card-product__logo" src="img/logo-firm-3.svg" alt="" width="105">
                         </header>
 
                         <div class="position-relative h-100">
@@ -434,7 +434,7 @@
                         <header class="card-product__header">
                             <span class="card-product__label">Есть восстановленные</span>
                             <img class="card-product__img" src="img/content-8.png" alt="...">
-                            <img class="card-product__logo" src="img/logo-firm-5.png" width="85" alt="">
+                            <img class="card-product__logo" src="img/logo-firm-5.png" width="90" alt="">
                         </header>
 
 
@@ -1447,7 +1447,7 @@
                 </div>
             </div>
 
-            <h2 class="h2" id="ourAdvantages">ПРЕИМУЩЕСТВА,</h2>
+            <h2 class="h2" id="ourAdvantages">ПРЕИМУЩЕСТВА</h2>
             <span class="ourAdvantages__slogan">Решение Вашей головной боли  <span>—</span>
                 <span class="ourAdvantages__slogan-color">наша приоритетная задача</span></span>
             <div class="row">
@@ -1668,6 +1668,27 @@
                         <div class="list-companies__item">
                             <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/photo_2019-12-23_09-38-49__10.jpg);"></i>
                         </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/1.png);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/2.jpg);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/3.jpg);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/68.jpg);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/sdspmk_done.jpg);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/logo-546694-ekaterinburg.png);"></i>
+                        </div>
+                        <div class="list-companies__item">
+                            <i class="list-companies__logo list-companies__logo-10" style="background-image:url(img/logos/12339.jpg);"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1704,7 +1725,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="footer-container">
-                        <i class="footer-marker footer-icon"></i>
+                        <a target="_blank" href="https://yandex.ru/maps/-/CGtc5Mys" class="footer-marker footer-icon"></a>
                         <div class="footer__wrapper">
                             <span class="footer__title mb-2 footer__right-icon footer__right-icon-marker">Наш адрес</span>
                             <a target="_blank" href="https://yandex.ru/maps/-/CGtc5Mys" class="footer__text">Москва, ул.Волгоградский проспект, <br> 128 офис 17</a>
@@ -2002,15 +2023,19 @@
 
     new WOW().init();
 
-    jQuery('.lightzoom').lightzoom({
-        speed:                 400,   // скорость появления
-        imgPadding:            10,    // значение отступа у изображения
-        overlayOpacity:        '0.5', // прозрачность фона (от 0 до 1)
-        viewTitle:             false, // true, если надо показывать подпись к изобажению
-        isOverlayClickClosing: true, // true, если надо закрывать окно при клике по затемненной области
-        isWindowClickClosing:  false, // true, если надо закрывать окно при клике по любой области
-        isEscClosing:          true  // true, если надо закрывать окно при нажатии на кнопку Esc
-    });
+    (function($) {
+
+        $( '.lightzoom' ).lightzoom( {
+            speed:                 400,   // скорость появления
+            imgPadding:            10,    // значение отступа у изображения
+            overlayOpacity:        '0.5', // прозрачность фона (от 0 до 1)
+            viewTitle:             false, // true, если надо показывать подпись к изобажению
+            isOverlayClickClosing: false, // true, если надо закрывать окно при клике по затемненной области
+            isWindowClickClosing:  false, // true, если надо закрывать окно при клике по любой области
+            isEscClosing:          false  // true, если надо закрывать окно при нажатии на кнопку Esc
+        } );
+
+    })(jQuery);
 
 </script>
 
