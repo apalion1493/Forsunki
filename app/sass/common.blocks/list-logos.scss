@@ -1,7 +1,3 @@
-.list-logos {
-
-}
-
 .item-logo {
   border: 1px solid #D3D3D3;
   border-radius: 10px;
@@ -59,6 +55,7 @@
 
 .list-logos__header-arrow-left-wrapper {
   margin-right: 30px;
+
   &:before {
     content: '';
     position: absolute;
@@ -72,6 +69,7 @@
 
 .list-logos__header-arrow-right-wrapper {
   margin-left: 30px;
+
   &:before {
     content: '';
     position: absolute;
@@ -104,7 +102,6 @@
 }
 
 .list-logos__hidden-link {
-
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;

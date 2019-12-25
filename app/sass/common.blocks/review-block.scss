@@ -51,16 +51,21 @@
 .review-block__rating-number {
   font-size: 12px;
   line-height: 16px;
-
   color: #333333;
 }
 
 .review-block__logo {
   margin-bottom: 5px;
+  max-width: 100px;
 }
 
-@media (max-width: 575.98px) {
-  .review-block {
+.review-block__logo-deal {
+  background: linear-gradient(124deg,#4854a2,#772088);
+  padding: 5px;
+}
 
-  }
+.review-block__logo-vseSto {
+  color: #ff8900;
+  font-family:arial, sans-serif;
+  max-width: 135px;
 }

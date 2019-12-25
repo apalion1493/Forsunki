@@ -16,13 +16,13 @@
 
 @media (max-width: 991.98px) {
   .fourteenth-slide {
+
     .background-phone-image {
       left: 90%;
       top: 50%;
     }
 
     .block__form {
-      //margin-top: 130px;
       margin-top: 50px;
       margin-left: auto;
       margin-right: auto;
@@ -44,6 +44,7 @@
 
 @media (max-width: 767.98px) {
   .fourteenth-slide {
+
     .background-phone-image {
       top: 75%;
       width: 500px;
@@ -78,12 +79,9 @@
       margin-top: 130px;
     }
   }
-
-
 }
 
 @media (max-width: 335px) {
-
   .fourteenth-slide {
     .icon-flag {
       display: none;
