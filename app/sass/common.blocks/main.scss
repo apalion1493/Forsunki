@@ -264,6 +264,25 @@ h3.h3 {
   opacity: 1;
 }
 
+.a1-text {
+  display: flex;
+  align-items: center;
+  background: url("../img/a1_singlelogo.jpg") no-repeat center;
+  background-size: 100% auto;
+  width: 26px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.mtc-text {
+  background: url("../img/unnamed.png") no-repeat center;
+  background-size: 100% auto;
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-right: 10px;
+}
+
 @media (min-width: 1200px) {
   .app .container {
     max-width: 1200px;

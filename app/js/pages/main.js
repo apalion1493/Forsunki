@@ -1,10 +1,10 @@
 
 // switching phone in header
-let phoneMas = ['.tel-phone__rus', '.tel-phone__ucr', '.tel-phone__brus'];
-let listClass = ['selectRus', 'selectUcr', 'selectBrs'];
+var phoneMas = ['.tel-phone__rus', '.tel-phone__ucr', '.tel-phone__brus'];
+var listClass = ['selectRus', 'selectUcr', 'selectBrs'];
 $('select[name="example"]').change(function(){
-    let el = $(this).val();
-    for (let i = 1; i < 4; i++) {
+    var el = $(this).val();
+    for (var i = 1; i < 4; i++) {
         if(el == i) {
             $('.tel-phone__item').removeClass('active');
             $(this).removeClass();
@@ -13,7 +13,7 @@ $('select[name="example"]').change(function(){
         }
     }
 });
-//
+
 
 //
 
@@ -69,7 +69,7 @@ $('.main-menu__close').click(function () {
 
 jQuery(function($){
     $(document).mouseup(function (e){
-        let divMenu = $(".main-menu");
+        var divMenu = $(".main-menu");
         if (!divMenu.is(e.target) && divMenu.has(e.target).length === 0) {
             $('.container-burger').removeClass('active');
             divMenu.removeClass('active');

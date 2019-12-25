@@ -39,12 +39,12 @@ gulp.task('scripts', function() {
         ])
         .pipe(plumber())
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
-        //.pipe(uglify()) // Сжимаем JS файл
+        .pipe(uglify()) // Сжимаем JS файл
         .pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
 });
 
 gulp.task('css-libs', ['sass'], function() {
-	return gulp.src('app/css/libs.css')
+	return gulp.src('app/css/main.css')
         .pipe(plumber())
 		.pipe(cssnano())
 		.pipe(rename({suffix: '.min'}))
@@ -90,24 +90,22 @@ gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function() {
 gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
 
     var buildCss = gulp.src([ // Переносим CSS стили в продакшен
-        'app/css/main.css',
-        'app/css/libs.min.css'
+        'app/css/main.min.css'
     ])
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('dist/css'));
 
     var buildFonts = gulp.src('app/fonts/**/*') // Переносим шрифты в продакшен
-        .pipe(gulp.dest('dist/fonts'))
+        .pipe(gulp.dest('dist/fonts'));
 
     var buildLibs = gulp.src('app/libs/**/*') // Переносим библиотеки в продакшен
-        .pipe(gulp.dest('dist/libs'))
+        .pipe(gulp.dest('dist/libs'));
 
     var buildMedia = gulp.src('app/media/**/*') // Переносим медиа-файлы в продакшен
-        .pipe(gulp.dest('dist/media'))
+        .pipe(gulp.dest('dist/media'));
 
     var buildJs = gulp.src('app/js/**/*') // Переносим скрипты в продакшен
-        .pipe(gulp.dest('dist/js'))
+        .pipe(gulp.dest('dist/js'));
 
     var buildHtml = gulp.src('app/*.html') // Переносим HTML в продакшен
         .pipe(gulp.dest('dist'));
-
 });
